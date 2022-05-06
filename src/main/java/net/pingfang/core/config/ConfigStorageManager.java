@@ -5,7 +5,7 @@ import reactor.core.publisher.Mono;
 /**
  * 配置存储管理器
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface ConfigStorageManager {

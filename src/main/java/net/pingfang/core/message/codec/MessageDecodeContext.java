@@ -3,7 +3,7 @@ package net.pingfang.core.message.codec;
 import javax.annotation.Nonnull;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @see FromDeviceMessageContext
  * @see MessageCodecContext
  * @since 1.0.0

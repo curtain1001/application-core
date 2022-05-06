@@ -19,7 +19,7 @@ import reactor.core.publisher.Mono;
  * 消息编码上下文,用于平台向设备发送指令并使用协议包进行编码时,可以从上下文中获取一些参数。
  * 通常此接口可强制转换为{@link ToDeviceMessageContext}。
  *
- * @author zhouhao
+ * @author wangchao
  * @see ToDeviceMessageContext
  * @see MessageCodecContext
  * @since 1.0.0

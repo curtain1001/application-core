@@ -4,7 +4,7 @@ import org.jetlinks.core.device.DeviceThingType;
 import org.jetlinks.core.metadata.Jsonable;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceMessage extends ThingMessage, Jsonable {

@@ -10,7 +10,7 @@ import net.pingfang.core.config.ConfigKey;
 /**
  * 多个值包装器
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface Values {

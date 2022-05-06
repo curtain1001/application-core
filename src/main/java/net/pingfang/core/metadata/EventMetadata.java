@@ -1,7 +1,7 @@
 package net.pingfang.core.metadata;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface EventMetadata extends Metadata, Jsonable {

@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
  *    .flatMap(conf-> doSomeThing(...))
  * </pre>
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceRegistry {

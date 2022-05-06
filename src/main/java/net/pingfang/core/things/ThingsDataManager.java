@@ -5,7 +5,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物实例数据管理器
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.9
  */
 public interface ThingsDataManager {

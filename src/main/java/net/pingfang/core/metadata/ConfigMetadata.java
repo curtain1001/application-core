@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 配置信息定义
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface ConfigMetadata extends ConfigScopeSupport, Serializable {

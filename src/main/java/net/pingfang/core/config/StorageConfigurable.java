@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * 使用{@link ConfigStorage}来提供配置支持
  *
- * @author zhouhao
+ * @author wangchao
  * @see ConfigStorage
  * @see ConfigStorageManager
  * @since 1.0

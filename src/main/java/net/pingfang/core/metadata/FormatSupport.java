@@ -3,7 +3,7 @@ package net.pingfang.core.metadata;
 /**
  * 格式化支持接口
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface FormatSupport {

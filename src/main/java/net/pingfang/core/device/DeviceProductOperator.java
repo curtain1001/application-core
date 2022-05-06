@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * 设备产品型号操作
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceProductOperator extends ThingTemplate {

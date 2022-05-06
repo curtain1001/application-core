@@ -1,6 +1,5 @@
 package net.pingfang.core.message;
 
-import java.awt.TrayIcon.MessageType;
 import java.io.Serializable;
 import java.util.Map;
 import java.util.Optional;
@@ -10,12 +9,12 @@ import java.util.function.Supplier;
 import javax.annotation.Nullable;
 
 import org.apache.commons.collections.MapUtils;
-import org.hswebframework.web.bean.FastBeanCopier;
 
 import com.alibaba.fastjson.parser.ParserConfig;
 import com.alibaba.fastjson.util.TypeUtils;
 
 import net.pingfang.core.metadata.Jsonable;
+import net.pingfang.core.utils.BeanCopierUtils;
 
 /**
  * 设备消息
@@ -168,6 +167,6 @@ public interface Message extends Jsonable, Serializable {
 	}
 
 	default Message copy() {
-		return FastBeanCopier.copy(this, this.getClass());
+		return BeanCopierUtils.copy(this, this.getClass());
 	}
 }

@@ -4,7 +4,7 @@ import org.jetlinks.core.metadata.DataType;
 import org.jetlinks.core.metadata.ValidateResult;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public class UnknownType implements DataType {

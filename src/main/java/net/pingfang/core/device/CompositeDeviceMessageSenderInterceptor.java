@@ -4,9 +4,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import org.jetlinks.core.message.DeviceMessage;
-import org.jetlinks.core.message.interceptor.DeviceMessageSenderInterceptor;
-
+import net.pingfang.core.message.DeviceMessage;
+import net.pingfang.core.message.interceptor.DeviceMessageSenderInterceptor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -27,7 +26,7 @@ public class CompositeDeviceMessageSenderInterceptor implements DeviceMessageSen
 	 * @return 新的消息
 	 */
 	@Override
-	public Mono<DeviceMessage> preSend(org.jetlinks.core.device.DeviceOperator device, DeviceMessage message) {
+	public Mono<DeviceMessage> preSend(DeviceOperator device, DeviceMessage message) {
 		Mono<DeviceMessage> mono = Mono.just(message);
 
 		for (DeviceMessageSenderInterceptor interceptor : interceptors) {
@@ -45,7 +44,7 @@ public class CompositeDeviceMessageSenderInterceptor implements DeviceMessageSen
 	 * @return 新的发送逻辑
 	 */
 	@Override
-	public Flux<DeviceMessage> doSend(org.jetlinks.core.device.DeviceOperator device, DeviceMessage source,
+	public Flux<DeviceMessage> doSend(DeviceOperator device, DeviceMessage source,
 			Flux<DeviceMessage> sender) {
 		Flux<DeviceMessage> flux = sender;
 
@@ -65,7 +64,7 @@ public class CompositeDeviceMessageSenderInterceptor implements DeviceMessageSen
 	 * @return 新的回复结果
 	 */
 	@Override
-	public <R extends DeviceMessage> Flux<R> afterSent(org.jetlinks.core.device.DeviceOperator device,
+	public <R extends DeviceMessage> Flux<R> afterSent(DeviceOperator device,
 			DeviceMessage message, Flux<R> reply) {
 
 		Flux<R> flux = reply;

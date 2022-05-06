@@ -17,7 +17,7 @@ import lombok.AllArgsConstructor;
 /**
  * 合并选项，通过一些自定义的选项来指定合并过程中的行为,比如 忽略合并一下拓展配置等
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.6
  */
 public interface MergeOption {

@@ -5,7 +5,7 @@ import javax.annotation.Nonnull;
 /**
  * 物属性，表示一个物实例的属性值
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.12
  */
 public interface ThingProperty {

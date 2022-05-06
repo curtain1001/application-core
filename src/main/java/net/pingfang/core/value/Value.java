@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * 用于包装各种数据
  *
- * @author zhouhao
+ * @author wangchao
  * @see Values
  * @since 1.0
  */

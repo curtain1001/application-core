@@ -1,7 +1,7 @@
 package net.pingfang.core.metadata;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.4
  */
 public enum DeviceMetadataType {

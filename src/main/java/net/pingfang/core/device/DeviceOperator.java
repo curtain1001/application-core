@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
+import net.pingfang.core.metadata.DeviceMetadata;
 import org.jetlinks.core.ProtocolSupport;
 import org.jetlinks.core.Value;
 import org.jetlinks.core.Values;
@@ -17,7 +18,7 @@ import reactor.core.publisher.Mono;
 /**
  * 设备操作接口,用于发送指令到设备{@link DeviceOperator#messageSender()}以及获取配置等相关信息
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceOperator extends Thing {
@@ -77,7 +78,7 @@ public interface DeviceOperator extends Thing {
 	 * 默认的状态检查逻辑: <br>
 	 * <img src="doc-files/device-state-check.svg">
 	 *
-	 * @see org.jetlinks.core.device.DeviceStateChecker
+	 * @see DeviceStateChecker
 	 */
 	Mono<Byte> checkState();
 
@@ -134,7 +135,7 @@ public interface DeviceOperator extends Thing {
 	 *
 	 * @param key 配置key
 	 * @return 配置值
-	 * @see org.jetlinks.core.device.DeviceConfigKey
+	 * @see DeviceConfigKey
 	 */
 	default <V> Mono<V> getSelfConfig(ConfigKey<V> key) {
 		return getSelfConfig(key.getKey()).map(value -> value.as(key.getType()));
@@ -145,7 +146,7 @@ public interface DeviceOperator extends Thing {
 	 *
 	 * @param keys 配置key
 	 * @return 配置值
-	 * @see org.jetlinks.core.device.DeviceConfigKey
+	 * @see DeviceConfigKey
 	 */
 	default Mono<Values> getSelfConfigs(ConfigKey<?>... keys) {
 		return getSelfConfigs(Arrays.stream(keys).map(ConfigKey::getKey).collect(Collectors.toSet()));
@@ -179,8 +180,8 @@ public interface DeviceOperator extends Thing {
 	 * @return 授权结果
 	 * @see MqttAuthenticationRequest
 	 */
-	Mono<org.jetlinks.core.device.AuthenticationResponse> authenticate(
-			org.jetlinks.core.device.AuthenticationRequest request);
+	Mono<AuthenticationResponse> authenticate(
+			AuthenticationRequest request);
 
 	/**
 	 * @return 获取设备的元数据
@@ -215,10 +216,10 @@ public interface DeviceOperator extends Thing {
 	/**
 	 * @return 获取设备对应的产品操作接口
 	 */
-	Mono<org.jetlinks.core.device.DeviceProductOperator> getProduct();
+	Mono<DeviceProductOperator> getProduct();
 
 	@Override
-	default Mono<org.jetlinks.core.device.DeviceProductOperator> getTemplate() {
+	default Mono<DeviceProductOperator> getTemplate() {
 		return getProduct();
 	}
 }

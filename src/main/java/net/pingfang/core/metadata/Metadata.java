@@ -6,7 +6,7 @@ import java.util.Optional;
 /**
  * 模型基础定义接口
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface Metadata {

@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * 设备绑定管理器，通常用于将设备ID与第三方平台进行绑定等操作
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.3
  */
 public interface DeviceBindManager {

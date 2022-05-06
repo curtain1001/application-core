@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * 消息发送器,用于发送消息给设备.
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceMessageSender {

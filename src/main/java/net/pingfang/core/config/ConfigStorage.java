@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * 配置存储器，用于定义配置存储接口以及常用方法
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface ConfigStorage {

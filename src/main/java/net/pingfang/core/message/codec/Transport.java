@@ -7,7 +7,7 @@ import java.util.Optional;
 /**
  * 传输协议定义,如: TCP,MQTT等,通常使用枚举来定义
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface Transport {

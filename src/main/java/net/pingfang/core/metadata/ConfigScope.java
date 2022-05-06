@@ -3,7 +3,7 @@ package net.pingfang.core.metadata;
 /**
  * 配置作用域,请使用枚举实现此接口
  *
- * @author zhouhao
+ * @author wangchao
  * @see DeviceConfigScope
  * @since 1.1.4
  */

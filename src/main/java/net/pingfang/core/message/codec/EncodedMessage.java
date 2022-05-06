@@ -15,7 +15,7 @@ import io.netty.buffer.ByteBufUtil;
 /**
  * 已编码的消息,通常为来自设备或者发向设备的原始报文.
  *
- * @author zhouhao
+ * @author wangchao
  * @see MqttMessage
  * @see CoapMessage
  * @see org.jetlinks.core.message.codec.http.HttpExchangeMessage

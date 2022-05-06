@@ -3,7 +3,7 @@ package net.pingfang.core.device.manager;
 /**
  * 设备绑定提供者,通常用于标识绑定的是哪个第三方平台
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.4
  */
 public interface DeviceBindProvider {

@@ -10,7 +10,7 @@ import net.pingfang.core.metadata.Metadata;
  * 值单位
  *
  * @author bsetfeng
- * @author zhouhao
+ * @author wangchao
  * @version 1.0
  **/
 public interface ValueUnit extends Metadata, FormatSupport, Serializable {

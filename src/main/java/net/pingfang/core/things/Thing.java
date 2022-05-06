@@ -17,7 +17,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物实例接口，可通过此接口获取物的物模型以及相关配置信息.
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.9
  */
 public interface Thing extends Configurable, Wrapper {

@@ -1,7 +1,7 @@
 package net.pingfang.core.device;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceState {

@@ -4,7 +4,7 @@ package net.pingfang.core.config;
  * 配置键值对
  *
  * @param <V> 值类型
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface ConfigKeyValue<V> extends ConfigKey<V> {

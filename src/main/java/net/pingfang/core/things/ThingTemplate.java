@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物模版,统一定义物模型等信息
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.9
  */
 public interface ThingTemplate extends Configurable, Wrapper {

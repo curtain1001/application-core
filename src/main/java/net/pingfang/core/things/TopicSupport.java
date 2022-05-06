@@ -3,7 +3,7 @@ package net.pingfang.core.things;
 /**
  * 支持 Topic 的物类型
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.9
  */
 public interface TopicSupport {

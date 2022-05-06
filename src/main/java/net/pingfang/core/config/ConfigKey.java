@@ -4,7 +4,7 @@ package net.pingfang.core.config;
  * 用于定义配置key,增加key的可读性
  *
  * @param <V> 值类型
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface ConfigKey<V> {

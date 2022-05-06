@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物注册中心,统一管理物的基础信息以及配置等信息
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.9
  */
 public interface ThingsRegistry {

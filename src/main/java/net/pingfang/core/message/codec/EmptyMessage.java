@@ -6,7 +6,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public final class EmptyMessage implements EncodedMessage {

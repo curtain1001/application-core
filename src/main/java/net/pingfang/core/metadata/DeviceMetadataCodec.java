@@ -5,7 +5,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物模型编解码器,用于将物模型与字符串进行互相转换
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceMetadataCodec {

@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 /**
  * 可配置接口
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface Configurable {

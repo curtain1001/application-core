@@ -7,7 +7,7 @@ import javax.annotation.Nullable;
 import com.sun.istack.internal.NotNull;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface FunctionMetadata extends Metadata, Jsonable {

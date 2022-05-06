@@ -7,7 +7,7 @@ import net.pingfang.core.things.ThingMetadata;
 /**
  * 设备物模型定义
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DeviceMetadata extends ThingMetadata {

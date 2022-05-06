@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 /**
  * 物数据管理支持,用于获取物的相关数据
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.1.7
  */
 public interface ThingsDataManagerSupport {

@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 /**
  * 设备操作代理,用于管理集群间设备指令发送
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0
  */
 public interface DeviceOperationBroker {

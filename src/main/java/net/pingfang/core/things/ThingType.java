@@ -6,7 +6,7 @@ import java.util.StringJoiner;
 /**
  * 物类型定义,通常使用枚举实现此接口
  *
- * @author zhouhao
+ * @author wangchao
  * @see TopicSupport
  * @since 1.1.9
  */

@@ -5,7 +5,7 @@ import com.jiangsonglin.fastbean.beans.FastBeanUtils;
 import com.jiangsonglin.fastbean.copier.FastBeanCopier;
 
 /**
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface Jsonable {

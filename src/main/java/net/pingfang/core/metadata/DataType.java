@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * 物模型数据类型
  *
- * @author zhouhao
+ * @author wangchao
  * @since 1.0.0
  */
 public interface DataType extends Metadata, FormatSupport {
